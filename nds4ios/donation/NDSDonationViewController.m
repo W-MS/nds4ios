@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:78.0/255.0 green:156.0/255.0 blue:206.0/255.0 alpha:1.0]];
+    [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:227.0/255.0 green:143.0/255.0 blue:97.0/255.0 alpha:1.0]];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -46,7 +46,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.section == 1 && indexPath.row == 0)
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MCAFUKL3CM8QQ"]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://me.alipay.com/ppsspp"]];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
